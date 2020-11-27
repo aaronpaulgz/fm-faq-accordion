@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | FAQ Accordion Card</title>
+  </head>
+  <body>
+    <main class="container">
+      <!-- IMG SECTION -->
+      <section class="img-section">
+        <div class="ornaments">
+          <img
+            class="img-girl"
+            src="./images/illustration-woman-online-desktop.svg"
+            alt=""
+          />
+          <img class="img-bg" src="./images/bg-pattern-desktop.svg" alt="" />
+          <img
+            class="img-box"
+            src="./images/illustration-box-desktop.svg"
+            alt=""
+          />
+        </div>
+      </section>
+      <!-- FAQ SECTION -->
+      <section class="faq-container" >
+        <div class="faq-title" id="q0">
+          <a href="#q0">FAQ</a>
+        </div>
+        <div class="faq-accordion">
+          <!-- Q1 -->
+          <div class="faq-accordion-item" id="q1">
+            <a class="faq-accordion-link" href="#q1"
+              >How many team members can I invite?
+              <i class="down">
+                <ion-icon name="caret-down-outline"></ion-icon>
+              </i>
+              <i class="up">
+                <ion-icon name="caret-up-outline"></ion-icon>
+              </i>
+            </a>
+            <div class="answer">
+              <p>
+                You can invite up to 2 additional users on the Free plan. There
+                is no limit on team members for the Premium plan.
+              </p>
+            </div>
+          </div>
+          <!-- Q2 -->
+          <div class="faq-accordion-item" id="q2">
+            <a class="faq-accordion-link" href="#q2"
+              >What is the maximum file upload size?
+              <i class="down">
+                <ion-icon name="caret-down-outline"></ion-icon>
+              </i>
+              <i class="up">
+                <ion-icon name="caret-up-outline"></ion-icon>
+              </i>
+            </a>
+            <div class="answer">
+              <p>
+                No more than 2GB. All files in your account must fit your
+                allotted storage space.
+              </p>
+            </div>
+          </div>
+          <!-- Q3 -->
+          <div class="faq-accordion-item" id="q3">
+            <a class="faq-accordion-link" href="#q3"
+              >How do I reset my password?
+              <i class="down">
+                <ion-icon name="caret-down-outline"></ion-icon>
+              </i>
+              <i class="up">
+                <ion-icon name="caret-up-outline"></ion-icon>
+              </i>
+            </a>
+            <div class="answer">
+              <p>
+                Click “Forgot password” from the login page or “Change password”
+                from your profile page. A reset link will be emailed to you.
+              </p>
+            </div>
+          </div>
+          <!-- Q4 -->
+          <div class="faq-accordion-item" id="q4">
+            <a class="faq-accordion-link" href="#q4">Can I cancel my subscription?
+
+              <i class="down">
+                <ion-icon name="caret-down-outline"></ion-icon>
+              </i>
+              <i class="up">
+                <ion-icon name="caret-up-outline"></ion-icon>
+              </i>
+
+            </a>
+              
+            </a>
+            <div class="answer">
+              <p>
+                Yes! Send us a message and we’ll process your request no
+                questions asked.
+              </p>
+            </div>
+          </div>
+          <!-- Q5 -->
+          <div class="faq-accordion-item" id="q5">
+            <a class="faq-accordion-link" href="#q5">
+              Do you provide additional support?            
+              <i class="down">
+                <ion-icon name="caret-down-outline"></ion-icon>
+              </i>
+              <i class="up">
+                <ion-icon name="caret-up-outline"></ion-icon>
+              </i>
+            </a>
+            </a>
+            <div class="answer">
+              <p>
+                Chat and email support is available 24/7. Phone lines are open during normal business hours.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Aarón González</a>.
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

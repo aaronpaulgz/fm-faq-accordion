@@ -27,7 +27,7 @@ body {
   font-family: var(--primary-font);
   color: var(--very-dark-grayish-blue);
   overflow: hidden;
-  background: linear-gradient(var(--soft-blue), var(--soft-violet));
+  background: linear-gradient(var(--soft-violet), var(--soft-blue));
   width: 100vw;
   height: 100vh;
   padding: 0;

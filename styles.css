@@ -152,9 +152,8 @@ body {
   height: 90%;
 }
 
-.answer p {
-  /* padding: 0.2rem; */
-}
+/* .answer p {
+} */
 
 .faq-accordion-item:target {
   font-weight: 700;
@@ -190,14 +189,14 @@ body {
   font-weight: 700;
 }
 
-@media and screen (min-width: 720px) {
+@media screen and (min-width: 720px) {
   .container {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media and screen (min-width: 1000px) {
+@media screen and (min-width: 1000px) {
   .container {
     display: flex;
     justify-content: center;

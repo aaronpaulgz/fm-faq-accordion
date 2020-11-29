@@ -130,6 +130,10 @@ body {
   justify-content: space-between;
 }
 
+.faq-accordion-link:hover {
+  color: var(--soft-red);
+}
+
 .faq-accordion-link i {
   color: var(--soft-red);
   padding: 0.5rem;

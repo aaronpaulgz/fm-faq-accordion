@@ -189,17 +189,57 @@ body {
   font-weight: 700;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (max-width: 720px) {
   .container {
+    width: 24rem;
+    height: 36rem;
     display: flex;
     flex-direction: column;
+    margin-top: 3.5rem;
   }
-}
 
-@media screen and (min-width: 1000px) {
-  .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .img-section {
+    /* padding-top: 1rem; */
+    width: 100%;
+    height: 100%;
+  }
+
+  .img-girl {
+    margin: 0;
+    position: absolute;
+    z-index: 2;
+    width: 18rem;
+    left: 2rem;
+    top: -6.5rem;
+  }
+
+  .img-bg {
+    width: 80%;
+    margin: 0;
+    position: absolute;
+    z-index: 1;
+    left: 1.2rem;
+    top: -7.5rem;
+  }
+
+  .img-box {
+    width: 8rem;
+    margin: 0;
+    position: absolute;
+    z-index: 3;
+    top: -4rem;
+    left: 1rem;
+  }
+
+  .faq-container > .faq-title {
+    margin-top: 0.2rem;
+    text-align: center;
+  }
+
+  .faq-container {
+    margin-top: 0.2rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    height: 100%;
   }
 }
